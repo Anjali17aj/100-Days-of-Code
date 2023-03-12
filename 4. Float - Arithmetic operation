@@ -1,0 +1,15 @@
+Q4) Using float data type for operations / and %  print the values.
+IDE used : Apache NetBeans-15
+
+package arithmetic2;
+public class Arithmetic2 {
+    public static void main(String[] args) {
+        int a=14,b=5;
+        float c =(float) a/b;
+        int r = a%b;
+        System.out.println(c);
+         System.out.println(r);
+        
+    }
+    
+}
