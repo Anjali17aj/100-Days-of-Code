@@ -1,0 +1,15 @@
+Q. To use Arithmetic operations such as division and modulo for given values a=14 and b=5 . Also print the values.
+IDE used : Apache NetBeans 15
+Java with ANT -> Java application 
+
+
+package arithmetic;
+public class Arithmetic {
+    public static void main(String[] args) {
+        int a=14,b=5;
+        int c=a/b;
+        int r=a%b;
+        System.out.println(c);
+        System.out.println(r);
+    }   
+}
