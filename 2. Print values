@@ -1,0 +1,33 @@
+To print the values of a, b,c and d having different data types and values. Also find the sum of a and d .
+Constraints are : int a=10,d=20   float b=45.17   char c= A   String str= Hello.
+        
+IDE USED : Apache NetBeans 15
+
+
+package printstates;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Printstates {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int a=10,d=20;
+        float b=45.17f;
+        char c='A';
+        String str="Hello";
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println("The values are:" + a +' '+ b +' ' + c);
+        System.out.println("Sum " +a+d);
+        System.out.println("Sum " +(a+d));
+        System.out.println(str);
+    }
+    
+}
