@@ -1,0 +1,16 @@
+12. Increment operation :x++
+IDE Used : Blue J.
+
+import java.lang.*;
+import java.util.*;
+public class Postpre  {
+public static void main(String[] args) {
+int x=5,y;
+y=x++;
+System.out.println(x+" "+y);
+}
+}
+
+
+OUTPUT:
+6   5
