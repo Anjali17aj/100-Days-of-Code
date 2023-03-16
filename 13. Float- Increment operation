@@ -1,0 +1,15 @@
+Increment operation using Float data type.
+IDE Used : Blue J.
+
+
+import java.lang.*;
+import java.util.*;
+public class Postpre  {
+public static void main(String[] args) {
+
+float a=3.5f;
+a++;
+System.out.println(a);
+
+}
+}
