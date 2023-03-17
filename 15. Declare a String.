@@ -1,0 +1,30 @@
+STRING : Different methods to declare strings.
+IDE USED : Apache Netbeans-15
+
+
+package string1;
+
+/**
+*
+@author Anjali
+*/
+public class String1 {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+// TODO code application logic here
+String str="Java Programing"; // method 1 to declare a string 
+
+System.out.println(str);
+String str1=new String("Java"); // method 2 to declare a string 
+System.out.println(str1);
+
+char c[]={'A','N','J','A','L','I'}; // method 3 to declare a string 
+String str2=new String(c);
+System.out.println(str2);
+
+}
+
+}
