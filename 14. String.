@@ -1,0 +1,26 @@
+Strings: Write a program that has a String Literal Java program stored inside string pool str1.
+Create another string with reference as str1 and print string literal JAVA in heap.
+IDE USED: Apache NetBeans.
+
+
+package string1;
+
+/**
+*
+@author Anjali
+*/
+public class String1 {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+// TODO code application logic here
+String str="Java Programing";
+
+System.out.println(str);
+String str1=new String("Java");
+System.out.println(str1);
+}
+
+}
