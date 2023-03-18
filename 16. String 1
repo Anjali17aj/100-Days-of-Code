@@ -1,0 +1,23 @@
+Check whether string1 is the same as string 2 or not.
+IDE used : Apache NetBeans-15
+
+package stringpractice;
+
+/**
+*
+@author Anjali
+*/
+public class Stringpractice {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+// TODO code application logic here
+String str1="Pyramid";
+String str2="pyramid";
+
+System.out.println(str1.equals(str2));
+}
+
+}
