@@ -1,0 +1,26 @@
+Program on string class "IgnoreCase"
+IDE Used : Apache NetBeans-15.
+
+package ignoringcase;
+
+/**
+*
+@author Anjali
+*/
+public class Ignoringcase {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+// TODO code application logic here
+
+String str1="Pyramid";
+String str2="pyramid";
+
+System.out.println(str1.equals(str2));
+System.out.println(str1.equalsIgnoreCase(str2));
+//System.out.println(str1==str2);
+}
+
+}
