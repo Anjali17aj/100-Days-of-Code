@@ -1,0 +1,22 @@
+  Q)To Find if a number. is binary or not.
+  IDE Used : Apache NetBeans-15
+  
+package binaryno;
+
+/**
+*
+@author Anjali
+*/
+public class Binaryno {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+
+int a=1001100001;
+String str = String.valueOf(a);  // method for  converting b which is binary into a string 
+System.out.println(str.matches("[01]*+"));
+}
+
+}
