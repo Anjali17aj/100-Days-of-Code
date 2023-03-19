@@ -1,0 +1,30 @@
+Q) To print the user name and domain name separately from the string programmer@gmail.com.
+IDE Used : Apache NetBeans-15 
+
+package scstring;
+
+/**
+*
+@author Anjali
+*/
+public class SCString {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+
+String str="programmer@gmail.com";
+
+int i=str.indexOf("@");
+String uname = str.substring(0,i);
+
+String dname = str.substring(i+1, str.length());
+System.out.println("username : " + uname);
+
+System.out.println("domain name :" +dname);
+System.out.println(dname.startsWith("gmail"));
+
+}
+
+}
