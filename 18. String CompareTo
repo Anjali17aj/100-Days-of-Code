@@ -1,0 +1,24 @@
+Q) Use the string "compareTo" for a comparison between "china wall" and the String "china tall".
+IDE Used : Apache NetBeans-15
+
+
+package comparingstrings;
+
+/**
+*
+@author Anjali
+*/
+public class ComparingStrings {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+
+
+String str1="china wall";
+String str2=new String("china tall");
+
+System.out.println(str1.compareTo(str2)); //output is 3 because differnce btw ascii code w and t is 3
+}
+
