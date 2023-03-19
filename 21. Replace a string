@@ -1,0 +1,24 @@
+Q21) To replace special characters using a string method. And the given string is : “a!B@c#1$2%3”.
+IDE used : Apache NetBeans-15.
+
+
+package replacing;
+
+/**
+*
+@author Anjali
+*/
+public class Replacing {
+
+/**
+@param args the command line arguments
+*/
+public static void main(String[] args) {
+
+String str="a!B@c#1$2%3";
+
+str=str.replaceAll("[^a-zA-Z0-9]", "");
+
+System.out.println(str);     
+}
+}
