@@ -1,0 +1,28 @@
+Removes special characters from  String str="a!B@c#1$2%3".
+IDE used - Apache NetBeans-15
+
+package removespecial;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Removespecial {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    {
+        
+        String str="a!B@c#1$2%3";
+        
+        str=str.replaceAll("[^a-zA-Z0-9]", ""); //not a-z or A-Z or 0-9 to empty spaces.
+                
+        System.out.println(str);
+        
+        
+    }
+    }
+}
