@@ -1,0 +1,33 @@
+
+Q)Count words in a string.
+IDE Used Apache NetBeans-15.
+
+
+
+package countwords;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Countwords {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    {
+        
+        String str="      abc     def     gh   ijk    ";
+        
+        str=str.replaceAll("\\s+", " ").trim();
+        
+        String words[]=str.split("\\s");
+        
+        System.out.println(words.length);
+        
+        
+    }   
+}
+    }
