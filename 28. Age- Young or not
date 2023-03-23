@@ -1,0 +1,36 @@
+Check if a person is young OR NOT.   Constraints : for a person’s age should be greater than 14 for and less than 55.(job)
+IDE Used: Apache NetBeans-15.
+
+package young;
+import java.util.Scanner;
+/**
+ *
+ * @author Anjali
+ */
+public class Young {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+           
+           int age;
+           
+           Scanner sc=new Scanner(System.in);
+           
+           System.out.println("Enter your Age ");
+           age=sc.nextInt();
+           
+           if(age>=14 && age<=55)
+           {
+               System.out.println("You are Young");
+           }
+           else
+           {
+               System.out.println("you are Not Young");
+           }
+        
+        
+    }
+    }
