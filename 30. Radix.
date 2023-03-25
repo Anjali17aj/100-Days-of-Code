@@ -1,0 +1,52 @@
+
+Find Radix of a given number
+package radix;
+
+IDE used - Apache NetBeans-15.
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Radix {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Scanner scan=new Scanner(System.in);
+        
+        String num;
+        
+        System.out.println("Enter a Number");
+        num=scan.nextLine();
+        
+        if(num.matches("[01]+"))
+        {
+            System.out.println("Binary Radix=2");
+        }
+        else if(num.matches("[0-7]+"))            
+        {
+             System.out.println("Octal Radix=8");
+               
+        }
+        else if(num.matches("[0-9]+"))            
+        {
+             System.out.println("Decimal Radix=10");
+               
+        }
+        else if(num.matches("[0-9A-F]+"))            
+        {
+             System.out.println("Hexa Radix=16");
+               
+        }
+        else
+        {
+            System.out.println("Not a Number");
+        }
+    }  
+}
