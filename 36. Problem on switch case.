@@ -1,0 +1,44 @@
+Display the type of website according to the user input.
+Websites are:
+commercial
+organization
+government
+Network
+ 
+IDE used : Apache NetBeans-15.
+
+
+
+package websiteextention;
+import java.util.Scanner;
+/**
+ *
+ * @author Anjali
+ */
+public class WebsiteExtention {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Scanner sc=new Scanner(System.in);
+        String domain;
+        System.out.println("Enter the domain");
+        domain=sc.nextLine();
+        String ext=domain.substring(domain.lastIndexOf(".")+1); 
+        switch(ext)
+        {
+            case "com": System.out.println("commercial");
+            break;
+            case "org": System.out.println("organization");
+            break;
+            case "gov": System.out.println("government");
+            break;
+            case "net": System.out.println("Network");
+                        break;
+            
+        }  }
+    
+}
