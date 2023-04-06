@@ -1,0 +1,38 @@
+Q)  Palindrome number.
+IDE Used: Apache NetBeans.
+
+package palindrome;
+import java.util.*;
+
+
+/**
+ *
+ * @author Anjali
+ */
+public class Palindrome {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a number");
+        int n=sc.nextInt();
+        int m=n;
+        int rev=0,r;
+        
+        while(n>0)
+        {
+         r=n%10;
+         rev=rev+10*r;
+         n=n/10;
+         
+        }
+        if(rev==m)
+            System.out.println("Palindrome number");
+        else 
+            System.out.println(" Not a Palindrome number");
+    }
+    
+}
