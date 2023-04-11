@@ -1,0 +1,30 @@
+Pattern print.
+IDE Used : Apache Netbeans-15.
+
+
+package pattern1;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Pattern1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int i,j;
+        for(i=0;i<=5;i++)
+        {
+            for(j=0;j<=5;j++){
+                System.out.print(j+" ");
+                
+            
+        }
+            System.out.println("");
+    }
+    
+}
+}
