@@ -1,0 +1,26 @@
+Q62)  Sorting array of strings.
+IDE USED: Apache NetBeans 
+
+package sorting;
+
+/**
+ *
+ * @author Anjali
+ */
+public class Sorting {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+       
+        String arr[]={"java","python","pascal","smalltalk","ada","basic"};
+        
+        java.util.Arrays.sort(arr);
+        
+        for(String x:arr)
+            System.out.println(x);
+        
+    }
+    }
