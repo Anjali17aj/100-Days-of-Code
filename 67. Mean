@@ -1,0 +1,21 @@
+67. Program to calculate mean and standard deviation.
+IDE USED: Blue J
+
+
+
+public class mean{
+    public static void main(String[] args) {
+        int nums[]={12, 17, 18, 3, 5};
+        int sum=0, sumSq=0;
+        double mean, stdDev;
+        for(int i=0;i<nums.length;i++)
+        {
+            sum=sum+nums[i];
+            sumSq=sumSq+nums[i] * nums[i];
+        }
+        mean = (double)sum/nums.length;
+        stdDev=Math.sqrt((double)sumSq/nums.length-mean*mean);
+        System.out.println("The mean is: "+ mean);
+        System.out.println("Standard deviation is:"+ stdDev);
+    }
+}
